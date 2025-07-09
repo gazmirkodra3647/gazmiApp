@@ -1,0 +1,49 @@
+exports[`MultiRpcEditModal renders correctly with required props 1`] = `
+<body>
+  <div id="popover-content"/>
+  <div/>
+  <div class="mm-modal" data-testid="multi-rpc-edit-modal">
+    <div aria-hidden="true" class="mm-box mm-modal-overlay mm-box--width-full mm-box--height-full mm-box--background-color-overlay-default"/>
+    <div data-focus-guard="true" style="width:1px;height:0;padding:0;overflow:hidden;position:fixed;top:1px;left:1px;" tabindex="0"/>
+    <div data-focus-lock-disabled="false">
+      <div class="mm-box mm-modal-content mm-box--padding-top-4 mm-box--sm:padding-top-8 mm-box--md:padding-top-12 mm-box--padding-right-4 mm-box--padding-bottom-4 mm-box--sm:padding-bottom-8 mm-box--md:padding-bottom-12 mm-box--padding-left-4 mm-box--display-flex mm-box--justify-content-center mm-box--align-items-flex-start mm-box--width-screen mm-box--height-screen">
+        <section aria-modal="true" role="dialog" class="mm-box mm-modal-content__dialog mm-modal-content__dialog--size-sm 
+          mm-box--padding-top-4 
+          mm-box--padding-bottom-4 
+          mmbox-display-flex 
+          mmbox-flex-direction-column 
+          mmbox-width-full
+          mmbox-background-color-background-default
+          mmbox-rounded-lg"
+        >
+          <div class="
+            mmbox-mmmodalbody
+            mmbox-padding-right-4
+            mmbox-padding-left-4
+            display-flex flex-direction-column"
+           >
+            <div class="
+              display-flex justify-content-center align-items-center rounded-sm"
+             >
+              <img src="/images/networks1.png"/>
+            </div>
+            <p class="
+              text-body-md-bold text-align-center color-text-default"
+             >updatedRpcForNetworks</p>
+            <p class="
+              text-body-md text-align-center padding-top-2 color-text-default"
+             >supportMultiRpcInformation</p>
+            <div class =" padding-bottom -6">
+              <div class = " margin-top -4 margin-bottom -1 ">
+                <!-- Network item -->
+                <!-- Container row -->
+                <!-- Icon and labels container -->
+                <!-- Edit button container -->
+                <!-- Network icon with image and label with button inside -->
+                  ...
+                  </section>  
+      </section>
+      </section>  
+     </section>    
+   ...
+</body>`
