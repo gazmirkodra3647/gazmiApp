@@ -1,0 +1,26 @@
+.mm-button-icon {
+  --button-icon-size: var(--size, 24px);
+  height: var(--button-icon-size);
+  width: var(--button-icon-size);
+  min-width: var(--button-icon-size);
+  padding: 0;
+  cursor: pointer;
+
+  &:hover { background-color: var(--color-background-hover); }
+  
+  &:active { background-color: var(--color-background-pressed); }
+
+}
+&[disabled], .mm-button-icon--disabled {
+   opacity :var( --opacity-disabled );
+   cursor:not-allowed;
+}
+&:[disabled]:hover,&:[disabled]:active,.mm-button -icon-- disabled:hover,.mm - button - icon-- disabled:hover{
+background-color : transparent ;
+} 
+.mm - button - icon-mm/button/icon/size/sm{ 
+    --b ut ton-i co n-s iz e;24p x;} 
+    mm-bu tton/icon/ size/md{    
+        --butto n/ic on/siz e ;28 px;}
+            mmbut tone /si ze/l g{
+                --bu ttoni con si ze;32 p x };;.
