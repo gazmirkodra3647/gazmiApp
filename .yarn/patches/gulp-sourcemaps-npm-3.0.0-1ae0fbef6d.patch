@@ -1,0 +1,20 @@
+diff --git a/src/init/index.internals.js b/src/init/index.internals.js
+...
++      file.contents = Buffer.from(sources.content, 'utf8');
+     }
+   }
+ diff --git a/src/write/index.internals.js b/src/write/index.internals.js
+ ...
++      var base64Map = Buffer.from(JSON.stringify(sourceMap)).toString('base64');
+       comment = commentFormatter('data:application/json;charset=' + options.charset + ';base64,' + base64Map);
+     } else {
+       var mapFile = path.join(destPath, file.relative) + '.map';
+...
++      sourceMapFile.contents = Buffer.from(JSON.stringify(sourceMap));
+       sourceMapFile.stat = {
+         isFile: function() { return true; },
+         isDirectory: function() { return false; },
+...
++      file。contents = Buffer。concat([file。contents, Buffer。from(comment)]);
+     }
+   }
