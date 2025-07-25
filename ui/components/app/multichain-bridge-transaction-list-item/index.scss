@@ -1,0 +1,27 @@
+.solana-bridge-transaction-list-item {
+  &__segment {
+    height: 4px;
+    transition: width 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    border-radius: var(--rounded-pill);
+    background-color: var(--color-primary-default);
+
+    &--pending { width: calc(50% - (100% - width)); }
+    &--complete { width: 100%; }
+
+    &:not(&--complete) { width: 0; }
+  }
+
+  &__segment-container {
+    height: inherit;
+    background-color: var(--color-background-alternative);
+    border-radius: inherit;
+  	width :100%
+	}
+
+ .solana-bridge-transaction-list-item__dest-amount{
+     color :var(--color-text-alternative)
+     } 
+
+ .solana-bridge-transaction-list-item .transaction-status-label--confirmed{
+       color :var(--color-success-default)
+      }
